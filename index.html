@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>کیبورد فارسی</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="keyboard">
+      <textarea id="text" placeholder="متن خود را بنویسید..."></textarea>
+
+      <div id="keys"></div>
+
+      <button onclick="add(' ')">فاصله</button>
+      <button onclick="del()">⌫ حذف</button>
+      <button onclick="clearText()">پاک کردن</button>
+      <button onclick="copyText()">کپی متن</button>
+
+      <p>تعداد حروف: <span id="count">0</span></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
